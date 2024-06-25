@@ -1,4 +1,3 @@
-cd src
 mkdir secretDir
 touch .secret secretDir/
 chmod 600 .secret
@@ -7,4 +6,3 @@ rm someFileIsLinkingToMe.BeAware
 rm amIMaliciousOrNot.whoKnows
 cd ..
 rmdir maliciousFiles
-/bin/bash yourSolution.sh

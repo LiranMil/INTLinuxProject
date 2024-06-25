@@ -8,3 +8,4 @@ rm someFileIsLinkingToMe.BeAware
 rm amIMaliciousOrNot.whoKnows
 cd ..
 rmdir maliciousFiles
+/bin/bash generateSecret.sh

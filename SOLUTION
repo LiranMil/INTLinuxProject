@@ -1,17 +1,25 @@
-<your secret here>      <<  Change this line. The secret must be placed in the first line
+814c5723c21e7e90a3eae36c8df3c513
 
 
 Kernel System Calls
 -------------------
-<Your Answer>
+It creates a folder: welcomeToDevOpsTheHardWay, when I do 'ls' it say 'the file is a directory' and then I do 'cd' to that
+directory and then 'ls' it shows me 'GoodLuck' file, 'cat GoodLuck' = There you go... tell me what I do...
 
 
 Broken Symlink
 -------------------
-<Your Answer>
-
+To fix this issue, you need to ensure that the symbolic link ('latest-backup.obj') always points
+to the correct location. $(pwd)/$backup/latest-backup.obj
 
 
 Binary Numbers
 --------------
-<Your Answer>
+111 - 7
+100 - 4
+10110 - 22
+
+The range of values that can be represented by an 8-bit binary number is from 0-255.
+This includes 256 different values in total.
+
+I didn't understood the rest of it.

@@ -1,1 +1,2 @@
-/bin/bash generateSolution.sh
+cd src
+cat cat secretDir/.secret

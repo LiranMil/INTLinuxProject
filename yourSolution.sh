@@ -1,2 +1,10 @@
 cd src
-cat cat secretDir/.secret
+mkdir secretDir
+touch .secret secretDir/
+chmod 600 .secret
+cd maliciousFiles
+rm someFileIsLinkingToMe.BeAware
+rm amIMaliciousOrNot.whoKnows
+cd ..
+rmdir maliciousFiles
+/bin/bash yourSolution.sh

@@ -1,1 +1,2 @@
-/bin/bash yourSolution.sh
+cd src
+/bin/bash generateSolution.sh

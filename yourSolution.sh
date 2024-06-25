@@ -1,5 +1,6 @@
 mkdir secretDir
-touch .secret secretDir/
+cd secretDir
+touch .secret
 chmod 600 .secret
 cd maliciousFiles
 rm someFileIsLinkingToMe.BeAware
